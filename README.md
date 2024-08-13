@@ -1,20 +1,38 @@
-# Carbon Footprint
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/Tech-Avinya-07/carbon-footprint-banner.png" alt="Carbon Footprint" width="80%">
+</p>
 
-## Overview
-Welcome to the Carbon Footprint project! This repository contains the source code for calculating and analyzing carbon footprints using various metrics and tools. The project is divided into two main parts: the client-side application and the server-side backend.
+<h1 align="center">🌍 Carbon Footprint 🌱</h1>
 
-## Installation Instructions
+<p align="center">
+  <strong>Calculate and analyze your carbon footprint with ease!</strong>
+</p>
 
-Follow the steps below to set up and run the project on your local machine:
+<p align="center">
+  <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen" alt="Contributions Welcome">
+  <img src="https://img.shields.io/github/license/Tech-Avinya-07/Carbon_Footprint" alt="License">
+  <img src="https://img.shields.io/github/issues/Tech-Avinya-07/Carbon_Footprint" alt="Issues">
+</p>
+
+---
+
+## 🌟 Overview
+
+Welcome to the Carbon Footprint project! This repository provides a comprehensive tool to calculate and analyze your carbon footprint using various metrics. The project is divided into two main parts: a client-side application and a server-side backend.
+
+---
+
+## 🚀 Quick Start
 
 ### Prerequisites
-Make sure you have the following installed on your machine:
+
+Ensure you have the following installed:
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
 
-### Clone the Repository
-First, clone the repository to your local machine:
+### 🔧 Installation Instructions
 
-```bash
-git clone https://github.com/Tech-Avinya-07/Carbon_Footprint.git
-cd Carbon_Footprint
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Tech-Avinya-07/Carbon_Footprint.git
+   cd Carbon_Footprint
