@@ -1,11 +1,11 @@
 require("dotenv").config();
 const express = require("express");
 var cors = require("cors");
-const authRouter = require("./routes/auth-router");
+const userRoutes = require("./routes/userRoutes");
+const emissionRoutes = require("./routes/emissionRoutes");
 const mongoDB = require("./config/database");
-const errorMiddleware = require("./middlewares/error-middleware");
+const errorMiddleware = require("./middlewares/errorHandler");
 
-// mongoDB();
 const app = express();
 
 const corsOptions = {
@@ -17,7 +17,8 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 app.use(express.json());
-app.use("/api/auth", authRouter);
+app.use("/api/user", userRoutes);
+app.use("/api/emission", emissionRoutes);
 
 app.use(errorMiddleware);
 
