@@ -1,12 +1,14 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "../pages/Home";
-import About from "../pages/About";
-import Services from "../pages/Services";
-import Login from "../pages/Login";
-import Logout from "../pages/Logout";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Services from "./pages/Services";
+import Login from "./pages/Login";
+import Logout from "./pages/Logout";
 import Navbar from "./components/Navbar";
-import Register from "../pages/Register";
-import PageNotFound from "../pages/PageNotFound";
+import Register from "./pages/Register";
+import PageNotFound from "./pages/PageNotFound";
+import FlightEmission from "./pages/FlightEmission";
+import ElectricityEmission from "./pages/ElectricityEmission";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           <Route path="/logout" element={<Logout />} />
+          <Route path="/flight" element={<FlightEmission />} />
+          <Route path="/electricity" element={<ElectricityEmission />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
